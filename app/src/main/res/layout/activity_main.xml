@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.android.almark2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="N. West"
+                android:layout_weight="1"
+                android:background="#0000ff"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:text="North"
+                android:layout_weight="1"
+                android:background="#3333ff"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:text="N. East"
+                android:layout_weight="1"
+                android:background="#6666ff"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="West"
+                android:layout_weight="1"
+                android:background="#00ff00"/>
+            <Button
+                android:id="@+id/townQuad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:text="Town"
+                android:layout_weight="1"
+                android:background="#8b7338"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:text="East"
+                android:layout_weight="1"
+                android:background="#88ff88"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="S. West"
+                android:layout_weight="1"
+                android:background="#ff0000"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:text="South"
+                android:layout_weight="1"
+                android:background="#ff3333"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:text="S. East"
+                android:layout_weight="1"
+                android:background="#ff6666"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:background="#000000"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/menu1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:layout_weight="1"
+            android:background="#e5c100"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textAllCaps="true" />
+        <TextView
+            android:id="@+id/menu2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:text="2"
+            android:layout_weight="1"
+            android:background="#e5c100"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textAllCaps="true" />
+        <TextView
+            android:id="@+id/menu3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:text="Next Day >>>>>>"
+            android:layout_weight="1"
+            android:background="#e5c100"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textAllCaps="true" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:background="#000000"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/menu4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Day: ###"
+            android:layout_weight="1"
+            android:background="#e5c100"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textAllCaps="true" />
+        <TextView
+            android:id="@+id/menu5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:text="Fire"
+            android:layout_weight="1"
+            android:background="#e5c100"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textAllCaps="true" />
+        <TextView
+            android:id="@+id/menu6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:text="Add Gold (+5)"
+            android:layout_weight="1"
+            android:background="#e5c100"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textAllCaps="true" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

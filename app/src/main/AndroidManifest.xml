@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.almark2">
+
+    <application
+        android:name=".GlobalDataClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:screenOrientation="landscape" android:immersive="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TownActivity" android:screenOrientation="landscape" android:immersive="true"/>
+        <activity android:name=".PartyListActivity" android:screenOrientation="landscape" android:immersive="true"/>
+        <activity android:name=".MissionMenuActivity" android:screenOrientation="landscape" android:immersive="true"/>
+        <activity android:name=".NotificationsActivity" android:screenOrientation="landscape" android:immersive="true"/>
+    </application>
+
+</manifest>
